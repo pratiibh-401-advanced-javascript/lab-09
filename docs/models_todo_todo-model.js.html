@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: models/todo/todo-model.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,35 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: models/todo/todo-model.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>'use strict';
 
+const Model = require('../mongo.js');
+const schema = require('./todo-schema.js');
 
-    <h3> </h3>
+/**
+ * class Todo
+ * extends from Class Model in mongo.js
+ * @class Todo
+ * @extends {Model}
+ */
+class Todo extends Model {
+  constructor() { super(schema); }
+}
 
+module.exports = Todo;
 
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+</code></pre>
+        </article>
+    </section>
 
 
 

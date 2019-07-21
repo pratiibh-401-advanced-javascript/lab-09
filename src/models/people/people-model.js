@@ -2,6 +2,13 @@
 
 const DataModel = require('../memory.js');
 
+
+/**
+ * class People
+ * extends from class DataModel in memory.js
+ * @class People
+ * @extends {DataModel}
+ */
 class People extends DataModel {
 
 
