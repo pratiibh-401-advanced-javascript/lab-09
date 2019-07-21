@@ -1,11 +1,8 @@
 'use strict';
-
+// work here when back home
 const cwd = process.cwd();
-
 const express = require('express');
-
 const modelFinder = require(`${cwd}/src/middleware/model-finder.js`);
-
 const router = express.Router();
 
 router.param('model', modelFinder.load);
@@ -18,7 +15,6 @@ router.get('/api/v1/models', (request, response) => {
 router.get('/api/v1/:model/schema', (request, response) => {
   response.status(200).json(request.model.jsonSchema());
 });
-
 
 router.get('/api/v1/:model', handleGetAll);
 router.post('/api/v1/:model', handlePost);
