@@ -6,13 +6,12 @@
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [travis]()
+* [heroku](https://dashboard.heroku.com/apps/lab009) could not get it running
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
+* [jsdoc](http://localhost:3000/docs/index.html) (Server assignments)
 
 ### Modules#### 
 #### `index.js` starts app by running `node index.js`
@@ -66,4 +65,4 @@
 * `npm test` to run test
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](./image/UML.jpg)
